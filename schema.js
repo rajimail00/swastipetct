@@ -4,7 +4,7 @@
       "@type": "Organization",
       "name": "Swasti PET/CT Imaging & Nuclear Medicine",
       "url": "https://www.swastipetct.com/",
-      "logo": "https://www.swastipetct.com/assets/images/favicon.jpeg",
+      "logo": "https://www.swastipetct.com/assets/images/favicon.png",
       "contactPoint": [
         {
           "@type": "ContactPoint",
