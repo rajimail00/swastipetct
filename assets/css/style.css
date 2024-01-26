@@ -628,10 +628,10 @@ p {
             width: 140px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .navigation .navbar .navbar-brand img {
-            width: 150px; } }
+            width: 200px; } }
         @media (max-width: 767px) {
           .navigation .navbar .navbar-brand img {
-            width: 120px; } }
+            width: 200px; } }
     .navigation .navbar .navbar-toggler {
       padding: 0; }
       .navigation .navbar .navbar-toggler .toggler-icon {
