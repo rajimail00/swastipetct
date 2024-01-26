@@ -265,42 +265,47 @@
                             <h3 class="title">Appointment</h3>
                         </div> <!-- section title -->
                         <div class="appointment-form mt-30">
-                            <form action="#">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="7739deef-2cbf-428c-a4c3-6a5b93a355a1">
+                                <input type="hidden" name="Booked an Appointment">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
-                                            <input type="text" placeholder="Full Name">
+                                            <input type="text" placeholder="Full Name" name="Name :" required>
                                         </div> <!-- single-appointment-form -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
-                                            <input type="text" placeholder="Your Phone">
+                                            <input type="text" placeholder="Your Phone" name="Phone number :" required>
                                         </div> <!-- single-appointment-form -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
-                                            <input id="datepicker" type="text" placeholder="MM/DD/YY">
+                                            <input id="datepicker" type="text" placeholder="MM/DD/YY" name="Date :" required>
                                         </div> <!-- single-appointment-form -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
-                                            <select>
+                                            <select name="Services :" >
+                                                <!-- <input id="datepicker" placeholder="MM/DD/YY" name="Service :" required> -->
                                                 <option value="0">Services</option>
-                                                <option value="1"> PET/CT </option>
-                                                <option value="2">CT</option>
-                                                <option value="3">Gamma camera scans</option>
-                                                <option value="4">Therapy for Hyperthyroidism</option>
-                                                <option value="5">Therapy for Thyroid Cancer</option>
+                                                <option value="PET/CT"> PET/CT </option>
+                                                <option value="CT">CT</option>
+                                                <option value="Gamma camera scans">Gamma camera scans</option>
+                                                <option value="Therapy for Hyperthyroidism">Therapy for Hyperthyroidism</option>
+                                                <option value="Therapy for Thyroid Cancer">Therapy for Thyroid Cancer</option>
+                                            </input>
                                             </select>
                                         </div> <!-- single-appointment-form -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
-                                            <button class="main-btn main-btn-2">Submit Now</button>
+                                            <button class="main-btn main-btn-2" type="submit">Submit Now</button>
                                         </div> <!-- single-appointment-form -->
                                     </div>
                                 </div> <!-- row -->
                             </form>
+                            <script src="https://web3forms.com/client/script.js" async defer></script>
                         </div> <!-- appointment form -->
                     </div> <!-- appointment area -->
                 </div>
@@ -344,7 +349,7 @@
                     <div class="call-action d-lg-flex justify-content-between align-items-center">
                         <div class="action-content">
                             <h3 class="action-title">Feel free to contact us!</h3>
-                            <p class="text">TC 17/127(1&2), Sreelekshmi Building, Ulloor Junction, Medical College P.O,<br> Thiruvananthapuram, Kerala 695011.</p>
+                            <p class="text">NUCLEUZ HEALTHCARE PRIVATE LIMITED,TC 17/127(1&2), Ulloor Junction, Near Credence Hospital, Opposite Catholic Syrian Bank, Medical College P.O,<br> Thiruvananthapuram, Kerala 695011.</p>
                         </div> <!-- action content -->
                         <div class="action-btn">
                             <a class="main-btn" href="#">get appointment</a>

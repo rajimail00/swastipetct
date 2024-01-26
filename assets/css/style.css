@@ -1389,6 +1389,20 @@ p {
     -moz-animation: up-down 3s infinite;
     -o-animation: up-down 3s infinite;
     animation: up-down 3s infinite; }
+    .expertdoctor-image::before {
+      position: absolute;
+      content: '';
+      width: 183px;
+      height: 183px;
+      background-image: none;
+      background-repeat: repeat;
+      top: -50px;
+      left: -50px;
+      z-index: -1;
+      -webkit-animation: up-down 3s infinite;
+      -moz-animation: up-down 3s infinite;
+      -o-animation: up-down 3s infinite;
+      animation: up-down 3s infinite; }
   .about-image img {
     width: 100%; }
 
