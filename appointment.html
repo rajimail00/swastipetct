@@ -172,6 +172,7 @@
             </div> <!-- container -->
         </div> <!-- header-top -->
 
+
         <div class="navigation navigation-two" style="padding-top: 10px; padding-bottom: 10px;">
             <div class="container">
                 <div class="row">
@@ -207,11 +208,19 @@
                                             <li><a href="petct.html">PET/CT Scans</a></li>
                                             <li><a href="ct.html">CT Scans</a></li>
                                             <li><a href="gamma-camera-scans.html">Gamma Camera Scans</a></li>
+                                            <li><a href="thyroidclinic.html">Thyroid Clinic</a></li>
+                                            <li><a href="laboratory-services.html">Laboratory Services</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a href="careers.html">Careers</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="faq.html">FAQ</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a href="careers.html">Blog</a>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a href="contact.html">Contact Us</a>
                                     </li>
@@ -253,91 +262,92 @@
 
     
 
-    <!--====== APPOINTMENT WORKING PART START ======-->
+        <!--====== APPOINTMENT WORKING PART START ======-->
 
-    <section class="appointment-working pt-80 pb-130">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="appointment-area mt-45">
-                        <div class="section-title section-title-two">
-                            <h5 class="sub-title">Make an</h5>
-                            <h3 class="title">Appointment</h3>
-                        </div> <!-- section title -->
-                        <div class="appointment-form mt-30">
-                            <form action="https://api.web3forms.com/submit" method="POST">
-                                <input type="hidden" name="access_key" value="7739deef-2cbf-428c-a4c3-6a5b93a355a1">
-                                <input type="hidden" name="Booked an Appointment">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-appointment-form">
-                                            <input type="text" placeholder="Full Name" name="Name :" required>
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-appointment-form">
-                                            <input type="text" placeholder="Your Phone" name="Phone number :" required>
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-appointment-form">
-                                            <input id="datepicker" type="text" placeholder="MM/DD/YY" name="Date :" required>
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-appointment-form">
-                                            <select name="Services :" >
-                                                <!-- <input id="datepicker" placeholder="MM/DD/YY" name="Service :" required> -->
-                                                <option value="0">Services</option>
-                                                <option value="PET/CT"> PET/CT </option>
-                                                <option value="CT">CT</option>
-                                                <option value="Gamma camera scans">Gamma camera scans</option>
-                                                <option value="Therapy for Hyperthyroidism">Therapy for Hyperthyroidism</option>
-                                                <option value="Therapy for Thyroid Cancer">Therapy for Thyroid Cancer</option>
-                                            </input>
-                                            </select>
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-appointment-form">
-                                            <button class="main-btn main-btn-2" type="submit">Submit Now</button>
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                </div> <!-- row -->
-                            </form>
-                            <script src="https://web3forms.com/client/script.js" async defer></script>
-                        </div> <!-- appointment form -->
-                    </div> <!-- appointment area -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="working-area mt-45">
-                        <div class="section-title section-title-two">
-                            <h5 class="sub-title">DISCOVER</h5>
-                            <h3 class="title">Working Time</h3>
-                        </div> <!-- section title -->
-                        <div class="working-content mt-20">
-                            <div class="single-work-time d-sm-flex justify-content-between">
-                                <p>Monday to Saturday <span class="time">9.00 am –5.00 pm</span></p>
-                                
-                            </div> <!-- single work time -->
-                            <div class="single-work-time d-sm-flex justify-content-between">
-                                <p>Sunday <span class="closed">CLOSED</span></p>
-                                <p class="number"><i class="lni-phone-handset"></i> +91 8589945, 0471 4060099</p>
-                            </div> <!-- single work time -->
-                            <div class="single-work-time">
-                                <a class="main-btn" href="#">time table</a>
-                            </div> <!-- single work time -->
-                        </div>
-                    </div> <!-- working area -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-
-        <div class="working-bg"></div> <!-- working bg -->
-    </section>
-
-    <!--====== APPOINTMENT WORKING PART ENDS ======-->
-
+        <section class="appointment-working pt-80 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="appointment-area mt-45">
+                            <div class="section-title section-title-two">
+                                <h5 class="sub-title">Make an</h5>
+                                <h3 class="title">Appointment</h3>
+                            </div> <!-- section title -->
+                            <div class="appointment-form mt-30">
+                                <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="7739deef-2cbf-428c-a4c3-6a5b93a355a1">
+                                    <input type="hidden" name="Booked an Appointment">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="single-appointment-form">
+                                                <input type="text" placeholder="Full Name" name="Name :" required>
+                                            </div> <!-- single-appointment-form -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-appointment-form">
+                                                <input type="text" placeholder="Your Phone" name="Phone number :" required>
+                                            </div> <!-- single-appointment-form -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-appointment-form">
+                                                <input id="datepicker" type="text" placeholder="MM/DD/YY" name="Date :" required>
+                                            </div> <!-- single-appointment-form -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-appointment-form">
+                                                <select name="Services :" >
+                                                    <!-- <input id="datepicker" placeholder="MM/DD/YY" name="Service :" required> -->
+                                                    <option value="0">Services</option>
+                                                    <option value="PET/CT"> PET/CT </option>
+                                                    <option value="CT">CT</option>
+                                                    <option value="Gamma camera scans">Gamma camera scans</option>
+                                                    <option value="Therapy for Hyperthyroidism">Therapy for Hyperthyroidism</option>
+                                                    <option value="Therapy for Thyroid Cancer">Therapy for Thyroid Cancer</option>
+                                                </input>
+                                                </select>
+                                            </div> <!-- single-appointment-form -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-appointment-form">
+                                                <button class="main-btn main-btn-2" type="submit">Submit Now</button>
+                                            </div> <!-- single-appointment-form -->
+                                        </div>
+                                    </div> <!-- row -->
+                                </form>
+                                <script src="https://web3forms.com/client/script.js" async defer></script>
+                            </div> <!-- appointment form -->
+                        </div> <!-- appointment area -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="working-area mt-45">
+                            <div class="section-title section-title-two">
+                                <h5 class="sub-title">DISCOVER</h5>
+                                <h3 class="title">Working Time</h3>
+                            </div> <!-- section title -->
+                            <div class="working-content mt-20">
+                                <div class="single-work-time d-sm-flex justify-content-between">
+                                    <p>Monday to Saturday : <span class="time">7.00 am – 7.00 pm</span></p>
+                                    
+                                </div> <!-- single work time -->
+                                <div class="single-work-time d-sm-flex justify-content-between">
+                                    <p>Sunday :<span class="closed">CLOSED</span></p>
+                                </div> 
+                                <div class="single-work-time d-sm-flex justify-content-between">
+                                    <p class="number"><i class="lni-phone-handset"></i>+91 85899 89945 , 0471 4060099</p>
+                                </div> <!-- single work time -->
+                                <div class="single-work-time">
+                                    <a class="main-btn" href="tel:+918589989945" target="blank">Call now</a>
+                                </div> <!-- single work time -->
+                            </div>
+                        </div> <!-- working area -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+    
+            <div class="working-bg"></div> <!-- working bg -->
+        </section>
+    
+        <!--====== APPOINTMENT WORKING PART ENDS ======-->
     
 
      <!--====== CALL TO ACTION PART START ======-->
