@@ -5119,3 +5119,20 @@ p {
           height: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.section-title .sub-title {
+  color: #1e90ff; /* Lighter blue for the subtitle */
+}
+
+.section-title .title {
+  color:#1e90ff; /* White color for the main title */
+}
+
+.gallery-item {
+  margin-right: 10px; /* Right margin for spacing */
+}
+
+.row {
+  margin-right: -10px; /* Prevent overflow */
+}
